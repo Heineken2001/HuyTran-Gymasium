@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.banner {
+    height: 100vh;
+    width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardbanner {
+    /* width: 18rem; */
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: #ffffff00;
+    color: azure;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+    font-size: 5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.shop-now {
+    background-color: #ffffff00;
 }
 
-.App-link {
-  color: #61dafb;
+.advantages {
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.advantages-item {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
