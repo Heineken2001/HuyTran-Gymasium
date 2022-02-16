@@ -1,4 +1,5 @@
 import './App.css';
+import ImageSlider from "./Components/slider";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             <div className="card-body">
               <h5 className="card-title">Sports &#38; Accessories</h5>
               <p className="card-text">Our great selection of sports clothes</p>
-              <a href="#" class="btn btn-primary shop-now">Shop now</a>
+              <a href="http://localhost:3000/" class="btn btn-primary shop-now">Shop now</a>
             </div>
           </div>
             <img src={require('./images/ta1.jpg')} className="banner img-fluid"  alt="..."/>
@@ -24,7 +25,7 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title">Sports &#38; Accessories</h5>
                 <p className="card-text">Our great selection of sports clothes</p>
-                <a href="#" class="btn btn-primary shop-now">Shop now</a>
+                <a href="http://localhost:3000/" class="btn btn-primary shop-now">Shop now</a>
               </div>
             </div>
             <img src={require('./images/ta2.jpg')} className="banner img-fluid " alt="..."/>
@@ -39,7 +40,7 @@ function App() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="d-flex bd-highlight advantages">
+      <div class="d-flex bd-highlight advantages image-slider">
         <div class="p-2 d-flex bd-highlight advantages-item">
           <img src="//cdn.shopify.com/s/files/1/0554/5784/1199/files/1_1e862949-1c29-4712-878e-b7fa9bf2a7cf.png?v=1639533201" alt="..."/>
           <h4>
@@ -68,6 +69,11 @@ function App() {
           </h4>
           <p>Giao hàng miễn phí</p>
         </div>
+      </div>
+      <div>
+        <div className='blog-title'>OUR BLOGS</div>
+        <div className='blog-title-hr'></div>
+        <ImageSlider />
       </div>
     </>
   );
