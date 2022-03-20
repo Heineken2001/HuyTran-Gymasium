@@ -104,7 +104,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: black;
+    color: red;
     border: none;
     z-index: 10000;
     width: 50px;
@@ -121,11 +121,8 @@
     background-color: #fd7e14;
     color: #fff;
 }
-.slick-prev {
-    left: 0;
-}
-.slick-next {
-    right: 0;
-}
 
+.slick-arrow::before {
+    display: none;
+}
 

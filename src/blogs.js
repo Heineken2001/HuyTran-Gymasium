@@ -4,7 +4,6 @@ $(document).ready(function(){
     centerPadding: '40px',
     slidesToShow: 3,
     infinite: true,
-    arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
