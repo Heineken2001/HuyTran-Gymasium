@@ -10,7 +10,7 @@ class DB {
   public $conn;
 
 
-  protected $dbname = "mvc";
+  protected $dbname = "gymnasium";
 
   
   function __construct()
