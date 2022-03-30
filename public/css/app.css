@@ -3,3 +3,72 @@
     padding: 0;
     margin: 0;
 }
+
+/* Product Card */
+.product-name{
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.product-name:hover{
+    font-weight: 700;
+    color: #ff871d;
+}
+
+.product-price{
+    font-weight: 700;
+    color: #ff871d;
+}
+
+.product-card{
+    width: 19rem;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 210px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+.item:hover .cover {
+    opacity: 1
+}
+
+.circular-btn {
+    background-color: white; 
+    border: none;
+    border-radius: 50%; 
+    padding: 10px 14px; 
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.circular-btn:hover {
+    background-color: #ff871d;
+    color: white;
+}
