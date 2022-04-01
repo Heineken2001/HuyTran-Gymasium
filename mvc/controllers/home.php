@@ -1,5 +1,15 @@
 <?php
     class Home extends controller {
+
+        function HomePage() {
+            // echo "This is Home Page";
+            $this->view("view1",["number"=>2,
+                "color"=>"red",
+                "page"=>"news",
+                "sv" =>2,
+            ]);
+        }
+
         function Hello()
         {
             $ken = $this->model("sinhvienmodel");
