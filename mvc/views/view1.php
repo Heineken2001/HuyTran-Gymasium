@@ -14,7 +14,7 @@
     <div class="header"></div>
     <div class="content">
         <?php 
-            require_once "./mvc/views/components/banner.php";
+            require_once "./mvc/views/pages/banner.php";
         ?>
     </div>
     <div class="footer"></div>
